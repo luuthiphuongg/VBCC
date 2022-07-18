@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="DemoSuite">
+    <test thread-count="1" parallel="classes" name="DemoTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_0Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_1Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_2Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_3Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_4Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_5Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_6Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_7Test" />
+            <class name="com.sat.novi.kiemtradangnhap.TC_M_1_8Test" />
+
+
+        </classes>
+    </test>
+</suite> <!-- Suite -->
